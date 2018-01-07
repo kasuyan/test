@@ -2,21 +2,17 @@
   "name": "kasuyan",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "src/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "npm run build & npm run start",
+    "build": "webpack --watch",
+    "start": "webpack-dev-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kasuyan/test.git"
-  },
-  "author": "kasuyan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kasuyan/test/issues"
-  },
-  "homepage": "https://github.com/kasuyan/test#readme",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0"
   }
 }
