@@ -1,0 +1,22 @@
+{
+  "name": "kasuyan",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasuyan/test.git"
+  },
+  "author": "kasuyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasuyan/test/issues"
+  },
+  "homepage": "https://github.com/kasuyan/test#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
